@@ -124,6 +124,7 @@ http://localhost:3000
 ## 👨‍💻 Author
 
 Yash Singhal
+
 GitHub: https://github.com/Yash19Singhal
 
 ## ⭐ Final Note
