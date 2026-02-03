@@ -5,6 +5,7 @@ A Full-Stack Event Management & Ticketing System with Secure Payments and QR-Bas
 The Event Ticketing Platform is a complete, production-ready full-stack web application designed to simulate a real-world online ticketing system. It enables users to discover events, purchase tickets securely, and receive digital tickets, while empowering organizers to create events, manage ticket inventory, and monitor attendees through a dedicated dashboard.
 
 This platform supports role-based access (Attendee & Organizer) and integrates modern web technologies to deliver a smooth and scalable experience.
+This project demonstrates strong understanding of MERN stack development, RESTful APIs, authentication, payment integration, file uploads, and real-world feature design, making it an excellent portfolio-ready application.
 
 ## Key highlights of the platform include:
 
@@ -29,7 +30,7 @@ View sold tickets, attendee details, and manage event operations efficiently.
 Modern Tech Stack
 Built using React (frontend), Node.js & Express (backend), and MongoDB (database), following clean architecture and best practices.
 
-This project demonstrates strong understanding of ## MERN ## stack development, RESTful APIs, authentication, payment integration, file uploads, and real-world feature design, making it an excellent portfolio-ready application.
+
 
 ## Project Structure
 ```
