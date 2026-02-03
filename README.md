@@ -1,15 +1,11 @@
 🎟️ Event Ticketing Platform
 
-A full-stack Event Ticketing Platform built with React, Node.js, Express, and MongoDB, enabling users to discover events, book tickets securely, and organizers to manage events, attendees, and sales analytics.
-
-This project demonstrates real-world production concepts such as authentication, role-based access control, payment integration, cloud image uploads, and secure backend APIs.
+A full-stack Event Ticketing Platform that allows users to discover events, buy tickets, and organizers to manage events and attendees. Built using React, Node.js, Express, and MongoDB, this project features authentication, role-based access, event management, and secure payment integration.
 
 🚀 Features
 👤 User (Attendee)
 
-Browse upcoming events
-
-Search events by keyword
+Browse and search upcoming events
 
 View event details
 
@@ -17,35 +13,15 @@ Book tickets securely
 
 Razorpay payment integration (Test Mode)
 
-View purchased tickets with QR codes
-
 🧑‍💼 Organizer
 
-Organizer dashboard
-
-Create, edit, and delete events
+Organize and manage events (create, update, delete)
 
 Upload event banners (Cloudinary)
 
-Manage ticket types & inventory
+Manage ticket types and availability
 
-View event attendees
-
-Sales analytics (total sales & ticket breakdown)
-
-Protected organizer-only routes
-
-🔐 Security & Auth
-
-JWT-based authentication
-
-Role-based authorization (attendee / organizer)
-
-Secure password handling
-
-Environment variable–based secrets
-
-Backend validation for all critical inputs
+View event attendees and sales data
 
 🛠 Tech Stack
 Frontend
@@ -56,9 +32,7 @@ React Router
 
 Axios
 
-Chart.js
-
-Razorpay Checkout (Test Mode)
+Razorpay Checkout
 
 Backend
 
@@ -74,76 +48,32 @@ Razorpay API
 
 Cloudinary (image uploads)
 
-Multer
-
-Express Async Handler
+Multer (file handling)
 
 📂 Project Structure
 event-ticketing-platform/
 │
-├── backend/
-│   ├── controllers/
-│   ├── routes/
-│   ├── models/
-│   ├── middleware/
-│   ├── config/
-│   ├── server.js
-│   └── .env (ignored)
-│
-├── frontend/
-│   ├── src/
-│   ├── public/
-│   ├── package.json
-│   └── .env (ignored)
-│
-└── README.md
+├── backend/              # Backend (Node.js, Express, MongoDB)
+├── frontend/             # Frontend (React)
+├── README.md             # This file
 
-
-▶️ How to Run the Project Locally
-1️⃣ Clone the Repository
+▶️ How to Run Locally
+1️⃣ Clone the repository:
 git clone https://github.com/Yash19Singhal/event-ticketing-platform.git
 cd event-ticketing-platform
 
-2️⃣ Start the Backend
+2️⃣ Install backend dependencies:
 cd backend
 npm install
 npm run server
 
 
-Backend runs on:
+Backend runs on: http://localhost:5000
 
-http://localhost:5000
-
-3️⃣ Start the Frontend
-
-Open a new terminal:
-
+3️⃣ Install frontend dependencies:
 cd frontend
 npm install
 npm start
 
 
-Frontend runs on:
-
-http://localhost:3000
-
-🌍 Deployment Ready
-
-Environment-based configuration
-
-Secure API key handling
-
-Can be deployed on:
-
-Frontend: Vercel / Netlify
-
-Backend: Render / Railway / AWS / Heroku
-
-Database: MongoDB Atlas
-
-
-👨‍💻 Author
-
-Yash Singhal
-Full-Stack Developer
-GitHub: @Yash19Singhal
+Frontend runs on: http://localhost:3000
